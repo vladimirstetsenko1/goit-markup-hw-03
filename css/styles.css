@@ -423,6 +423,7 @@ ul {
 .project-after-item {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
 }
 
 .project-item:nth-child(3n) {
