@@ -138,11 +138,15 @@ ul {
   color: var(--accent-color);
 }
 
+.line {
+  width: 1600px;
+  color: var(--secondary-bg-color);
+}
 /* Герой */
 
 .hero {
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 
   text-align: center;
   background-color: var(--footer-bg-color);
@@ -183,6 +187,10 @@ ul {
 
 /* Особенности */
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .title {
   margin-bottom: 10px;
 
@@ -206,8 +214,6 @@ ul {
 
 .feature-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .item {
@@ -227,6 +233,9 @@ ul {
 }
 /* Чем мы занимаемся */
 
+.section-work {
+  padding-bottom: 94px;
+}
 .work {
   margin-bottom: 50px;
 
@@ -236,24 +245,24 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.section .work {
+.section-work .work {
   color: var(--primary-text-color);
 }
 
 .work-list {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
 }
 
 /* Наша команда */
 
 .user {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--secondary-bg-color);
 }
 
 .galery {
-  padding-top: 94px;
   margin-bottom: 50px;
 
   font-weight: bold;
@@ -266,7 +275,6 @@ ul {
 .galery-list {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
 }
 
 .user .galery {
@@ -274,10 +282,15 @@ ul {
 }
 
 .galery-item {
+  margin-left: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--primary-bg-color);
+}
+
+.galery-item:nth-last-child(4n) {
+  margin-left: 0;
 }
 
 .head {
