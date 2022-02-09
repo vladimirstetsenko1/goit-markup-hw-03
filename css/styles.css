@@ -37,8 +37,7 @@ a {
 
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 
   /* outline: 2px solid tomato; */
 }
@@ -53,6 +52,10 @@ p,
 ul {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+button {
+  cursor: pointer;
 }
 
 .list {
@@ -137,11 +140,10 @@ ul {
 .contacts .contact:focus {
   color: var(--accent-color);
 }
-
-.line {
-  width: 1600px;
-  color: var(--secondary-bg-color);
+.page-header {
+  border-bottom: 1px solid var(--secondary-bg-color);
 }
+
 /* Герой */
 
 .hero {
@@ -384,6 +386,19 @@ ul {
 .buttons {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.buttons-title-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .button-items {
