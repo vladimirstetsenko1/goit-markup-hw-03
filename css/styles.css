@@ -141,7 +141,7 @@ button {
   color: var(--accent-color);
 }
 .page-header {
-  border-bottom: 1px solid var(--secondary-bg-color);
+  border-bottom: 1px solid var(--top-line-bg-color);
 }
 
 /* Герой */
